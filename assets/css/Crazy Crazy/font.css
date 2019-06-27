@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'CrazyCrazy';
+	src: url('./CrazyCrazy.eot');
+	src: local('CrazyCrazy'), url('./CrazyCrazy.woff') format('woff'), url('./CrazyCrazy.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_11905">Text with this font applied</p> */
+.fontsforweb_fontid_11905 {
+	font-family: 'CrazyCrazy' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
