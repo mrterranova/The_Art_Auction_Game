@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Art Auction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="assets/css/SEASRN/font.css">
+    <link rel="stylesheet" href="assets/csS/Crazy Crazy/font.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 title">
+                THE ART AUCTION GAME
+            </div>
+        </div>
+        <button id= "gameButton" onclick="rules()">Game Rules</button>
+        <br>
+        <div id="collection">
+            <div class="collected">
+                <p>Paintings you've collected:</p>
+            </div>
+        </div>
+        <div id="rules">
+            <div class="directions">
+                <p>Welcome to The Art Auction Game:</p>
+                <p>The rules are simple. The art auction will start up with different paintings that you definitely want to exhibit in your museum. You can bid on the paintings, but you don't want to over pay for them. There is a price card near the stage that is the correct price to pay for each painting.</p>
+                <p>Below the stage are four notorious art critics who are here to contribute money to the cause. Ask (click) one of them and they will be willing to prive you some money. However, they will not tell you how much money they are helping you with, so you will have to determine how much the critic is willing to give you for a particular piece. You can ask a critic multiple times and they will give you more money.</p>
+                <p>With the critics' money, you need to match the price on the price card. If you go over the amount, then your critics will be unhappy and will leave you to pay for everything on your own in which case, you will not be able to keep the painting.</p>
+                <p>So choose wisely and have fun collecting your artpieces.</p>
+            </div>
+        </div>
+        <br>
+        <button id= "paintingsCollected" onclick="bios()">Collected</button>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="class-md-8">
+                <img class="painting" src="assets/images/curtains.jpg" alt="">
+            </div>
+            <div class="class-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 priceBox">
+                PRICE
+            </div>
+        </div>
+        <div class="row critics">
+            <div class="critic" id = "crit1">Person 1</div>
+            <div class="critic" id = "crit2">Person 2</div>
+            <div class="critic" id = "crit3">Person 3</div>
+            <div class="critic" id = "crit4">Person 4</div>
+        </div>
+        <div class="collection">
+
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="assets/javascript/game.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
