@@ -35,7 +35,7 @@ body {
 
 }
 
-.painting {
+.curtain {
     display: flex;
     justify-content: center;
     width: 600px;
@@ -43,6 +43,20 @@ body {
     position: absolute;
     margin-left: 8%;
     border-radius: 15px;
+}
+
+.paintings {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#paintId {
+    z-index: 3;
+    position: absolute;
+    max-width: 300px;
+    max-height: 220px;
+    margin: 28% 0 0 2.5%;
 }
 
 .priceBox { 
@@ -137,13 +151,74 @@ p {
     padding: 10px;
 }
 
+
+html {
+    font-family: "Helvetica Neue", sans-serif;
+    width: 100%;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .popup-overlay {
+    /*Hides pop-up when there is no "active" class*/
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+  }
+  
+  .popup-overlay.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: center;
+    z-index: 5;
+  }
+  
+  .popup-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+  }
+  
+  .popup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+    z-index: 5;
+  }
+  
+  button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+  }
+  
+  button:hover {
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
+  }
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 640px){
 
 .title {
     text-align: center;
 }
 
-.painting { 
+.curtain { 
     float: left;
     position: absolute;
     margin-right: 700px;
