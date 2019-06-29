@@ -22,6 +22,7 @@
             </div>
         </div>
         <button id= "gameButton" onclick="rules()">Game Rules</button>
+        <button id= "paintingsCollected" onclick="collected()">Collected</button>
         <br>
         <div id="collection">
             <div class="collected">
@@ -38,7 +39,11 @@
             </div>
         </div>
         <br>
-        <button id= "paintingsCollected" onclick="bios()">Collected</button>
+        <div class="win-lose">
+            WIN:&nbsp;<span id="winner">0</span>
+            <br>
+            LOSE:&nbsp;<span id="loser">0</span>
+        </div>
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="class-md-8">
@@ -48,22 +53,29 @@
         </div>
         <div class="row">
             <div class="col-md-6 priceBox">
-                PRICE
+                PRICE: $ <span id="completePrice"></span>0,000
             </div>
         </div>
-        <div class="row critics">
-            <div class="critic" id = "crit1">Person 1</div>
-            <div class="critic" id = "crit2">Person 2</div>
-            <div class="critic" id = "crit3">Person 3</div>
-            <div class="critic" id = "crit4">Person 4</div>
+        <div class="bid">
+            BID: $ <span id="bidPrice"></span>0,000
+        </div>
+        <div class="row critics"> 
+            <td><input type = "button" class = "critic" id="c1" value = "random[0]"></td>&nbsp;
+            <td><input type = "button" class = "critic" id="c2" value = "random[1]"></td>&nbsp;
+            <td><input type = "button" class = "critic" id="c3" value = "random[2]"></td>&nbsp;
+            <td><input type = "button" class = "critic" id="c4" value = "random[3]"></td>&nbsp;
         </div>
         <div class="collection">
 
         </div>
     </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
     <!-- Optional JavaScript -->
     <script src="assets/javascript/game.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
