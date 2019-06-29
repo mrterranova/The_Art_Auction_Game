@@ -123,7 +123,7 @@ function playGame() {
 function museumCollection() {
 
     log("You should see this 1st")
-    $('#museumCollection').append('<img src="assets/images/'+paintings[randPaint]+'" ><br>');
+    $('#museumCollection').append('<img src="assets/images/'+paintings[randPaint]+'" style="max-height: 200px; max-width:200px;" ><br>');
     museum = paintings[randPaint];
 }
 
