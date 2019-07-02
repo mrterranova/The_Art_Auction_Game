@@ -32,7 +32,6 @@ body {
     position: absolute;
     float: left;
     margin-left: 120px;
-
 }
 
 .curtain {
@@ -188,7 +187,7 @@ html {
     z-index: 5;
   }
   
-  button {
+button {
     display: inline-block;
     vertical-align: middle;
     border-radius: 30px;
@@ -199,35 +198,131 @@ html {
     border: 1px solid #666666;
   }
   
-  button:hover {
-    border: 1px solid #666666;
-    background: #666666;
+button:hover {
+    border: 1px solid black;
+    background: black;
     color: #ffffff;
   }
 
+#c1 {
+    background-image: url("../images/crit1-1.png");
+}
+#c1:hover {
+    background-image: url("../images/crit1-2.png");
+}
+#c2 {
+    background-image: url("../images/crit2-1.png");
+}
+#c2:hover {
+    background-image: url("../images/crit2-2.png");
+}
+#c3 {
+    background-image: url("../images/crit3-1.png");
+}
+#c3:hover {
+    background-image: url("../images/crit3-2.png");
+}
+#c4 {
+    background-image: url("../images/crit4-1.png");
+}
+#c4:hover {
+    background-image: url("../images/crit4-2.png");
+}
 
 
 
 
 
-
-
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 786px){
 
 .title {
     text-align: center;
 }
 
 .curtain { 
-    float: left;
-    position: absolute;
-    margin-right: 700px;
+position: relative;
+display: initial;
+margin-top: 100px;
+margin-left: 45px;
+width: 440px;
+}
+
+.critics {
+position: relative;
 
 }
-.critics {
-    margin-top: 470px;
-    width: 700px;
-    margin-left: 300px;
 
+.win-lose {
+    background-color: black;
+    border:2px solid red;
+    position: absolute;
+    margin-left: 0%;
+    position: absolute;
+    height: 70px;
+    width:500px;
+    text-align: center;
+    color: silver;
+    font-family: CrazyCrazy;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.container{
+    height: 900px;
+}
+
+.directions{
+    width: 500px;
+    z-index: 6;
+    margin-top: 20px;
+    height: 525px;
+}
+
+.collected{
+    width: 500px;
+    z-index: 6;
+    margin-top: 20px;
+    height: 550px;
+}
+
+#paintId {
+    z-index: 3;
+    position: absolute;
+    max-width: 250px;
+    max-height: 200px;
+    margin: 0 0 0 0;
+}
+.priceBox { 
+margin: 0;
+font-size: 20px;
+height: 60px;
+padding: 5px;
+width: 300px;
+}
+
+.bid { 
+margin: 12px 0 0 305px;
+font-size: 18px;
+height: 40px;
+padding: 3px;
+}
+
+.critics {
+    flex: none;
+    position: absolute;
+    background:silver; 
+    border: 2px solid red;
+    margin-top: 65px;
+    width: 520px;
+    float:right;
+    margin-right:0;
+    margin-left: -12px;
+
+}
+.critic {
+    margin: 2px 2px 2px 2px;
+    background-color: black;
+    height: 110px;
+    width: 110px;
 }
 }
