@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# jQuery Assignment
 
-You can use the [editor on GitHub](https://github.com/mrterranova/unit-4-game/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
 
-### Markdown
+1. [demo] https://youtu.be/yNI0l2FMeCk.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
 
-```markdown
-Syntax highlighted code block
+3. Here's how the app works:
 
-# Header 1
-## Header 2
-### Header 3
+   * There will be four crystals displayed as buttons on the page.
 
-- Bulleted
-- List
+   * The player will be shown a random number at the start of the game.
 
-1. Numbered
-2. List
+   * When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
 
-**Bold** and _Italic_ and `Code` text
+     * Your game will hide this amount until the player clicks a crystal.
+     * When they do click one, update the player's score counter.
 
-[Link](url) and ![Image](src)
-```
+   * The player wins if their total score matches the random number from the beginning of the game.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+   * The player loses if their score goes above the random number.
 
-### Jekyll Themes
+   * The game restarts whenever the player wins or loses.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrterranova/unit-4-game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+     * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
 
-### Support or Contact
+   * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Actual Assignment
+
+  * Using the same concept above, I decided to make the Art Auction Game similar to how the Crystal Collector worked. Instead of comparing crystals however, 4 art critics will be handing you cash for a painting. If you spend too much money (don't guess the right amount) they will be upset with you and you will be unable to purchase the painting (you lose). Minus the backstory, everything is the same. Custom made buttons with my personal drawing are included to give it added flare. 
+  
+  You can check out my game here: https://mrterranova.github.io/unit-4-game/
+  
