@@ -141,7 +141,7 @@ p {
     background-color: black;
     border:2px solid red;
     position: absolute;
-    margin-left: 66%;
+    margin-left: 71%;
     height: 100px;
     width:200px;
     color: silver;
@@ -209,6 +209,7 @@ button:hover {
 }
 #c1:hover {
     background-image: url("../images/crit1-2.png");
+    transition: 0.5s;
 }
 #c2 {
     background-image: url("../images/crit2-1.png");
