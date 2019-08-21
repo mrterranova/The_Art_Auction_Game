@@ -42,7 +42,9 @@ To create a user friendly game utilizing the JQuery library. Enable users to int
   
 * Extras include a button to show all the paintings the player has collected as a secondary way of tracing their score. It also creates a goal to collect all the paintings in the auction. 
   
-* Mobile Responsive
+* The game is mobile responsive so play it wherever you go. 
+
+* And remember to have fun!
   
   You can check out my game here: https://mrterranova.github.io/unit-4-game/
   
