@@ -1,4 +1,4 @@
-# jQuery Assignment
+### The Art Auction
 
 ### Overview
 
