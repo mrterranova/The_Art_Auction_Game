@@ -3,7 +3,7 @@
 https://mrterranova.github.io/unit-4-game/
   
 
-### Overview (Assignment Parameters)
+### Overview (Assignment Parameters - Instructions given to students for this assignment)
 
 To create a user friendly game utilizing the JQuery library. Enable users to interact using buttons on the screen and update results. 
 
@@ -32,7 +32,7 @@ To create a user friendly game utilizing the JQuery library. Enable users to int
 
    * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-### Actual Work Completed
+### MY ASSIGNMENT EXPLANATION (With permission from Instructor)
 
 * In the original example this game is typically called the Crystal Collector. However, I wanted to include a personal touch to this project with my original work. 
 
