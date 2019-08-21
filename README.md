@@ -36,7 +36,7 @@ To create a user friendly game utilizing the JQuery library. Enable users to int
 
 * In the original example this game is typically called the Crystal Collector. However, I wanted to include a personal touch to this project with my original work. 
 
-* Instead of comparing crystals however, 4 art critics will be handing you cash for a painting. If you spend too much money (don't guess the right amount the painting is worth) the critics will be very upset with you, take back their cash, and you will be unable to purchase the painting (you lose). Minus the backstory, everything is the same. Custom made buttons with my personal art are included to give it added flare. 
+* Instead of comparing crystals, I have 4 art critics handing you cash for a painting. If you spend too much money (don't guess the right amount the painting is worth) the critics will be very upset with you, take back their cash, and you will be unable to purchase the painting (you lose). Minus the backstory, everything is the same. Custom made buttons with my personal art are included to give it added flare. 
   
 * Extras include a button to show all the paintings the player has collected as a secondary way of tracing their score. It also creates a goal to collect all the paintings in the auction. 
   
