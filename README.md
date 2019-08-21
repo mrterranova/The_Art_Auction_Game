@@ -5,9 +5,9 @@ https://mrterranova.github.io/unit-4-game/
 
 ### Overview (Assignment Parameters)
 
-In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
+To create a user friendly game utilizing the JQuery library. Enable users to interact using buttons on the screen and update results. 
 
-1. [demo] https://youtu.be/yNI0l2FMeCk.
+1. This is the example provided of how the game should function:  https://youtu.be/yNI0l2FMeCk.
 
 2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
 
