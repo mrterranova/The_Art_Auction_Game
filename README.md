@@ -1,5 +1,5 @@
 # The Art Auction Game
-![alt text](assets/images/layout.png)
+![alt text](assets/images/layout1.png)
 Visit the page here: https://mrterranova.github.io/unit-4-game/
   
 
