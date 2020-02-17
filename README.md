@@ -1,6 +1,6 @@
 # The Art Auction Game
 ![alt text](assets/images/layout1.png)
-Visit the page here: https://mrterranova.github.io/unit-4-game/
+Visit the page here: https://mrterranova.github.io/The_Art_Auction_Game/
   
 
 # Overview
